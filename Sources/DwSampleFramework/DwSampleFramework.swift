@@ -6,6 +6,10 @@ public struct DwSampleFramework {
     @State var placeholder: String
     @Binding var text: String
     
+    /// This is a consisten design text field
+    /// - Parameters:
+    ///   - placeholder: Text displayed before anything is written
+    ///   - text: Binding for textfield text
     public init(placeholder: String, text: Binding<String>) {
       self._placeholder = State(initialValue: placeholder)
       self._text = text
