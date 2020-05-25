@@ -16,9 +16,9 @@ public struct DwSampleFramework {
         Image(systemName: "person").foregroundColor(Color.blue)
         TextField(placeholder, text: $text)
           .font(.system(size: 20, weight: .bold, design: .default))
-          .foregroundColor(Color.blue)
+          .foregroundColor(Color.green)
       }.padding()
-        .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.blue, lineWidth: 2))
+        .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.green, lineWidth: 2))
     }
   }
   
